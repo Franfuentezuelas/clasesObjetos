@@ -1,23 +1,18 @@
 <?php
 
 /**
- * Clase Producto
+ * Clase Producto, de esta clase heredaran tv y smart
  */
-final class Producto{
-
-    /**
-     * @var String con el nombre del producto
-     */
-    public String $nombre;
+class Producto{
 
     /**
      * @param String $name variable que necesita el metodo contructor para crear un producto
      * 
      * @return none devuelve ya que instancia el objeto
      */
-    public function __constructor(String $name){
+    public function __construct(String $name){
         $this -> nombre =$name;
-    };
+    }
 
 }
 
